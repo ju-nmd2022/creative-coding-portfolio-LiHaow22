@@ -1,7 +1,19 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "file": "experiments/perlin_ver1.js",
+    "name": "Perlin Noise | Version 1",
+    "description": "This first attempt is the foundation of the Perlin noise versions. This was the first artwork I was drawn to, and even before the workshop I decided to work on it. The process followed almost every step of Garrit Schaap's workshop, with some tweaks here and there."
+  },
+
+  {
+    "file": "experiments/perlin_ver2.js",
+    "name": "Perlin Noise | Version 2",
+    "description": "The inspiration for this piece came from looking at maps, and more specifically minecraft and pirate maps since they have a very simplistic and square look (minecraft especially)."
+  },
+
+  {
+    "file": "experiments/perlin_ver3.js",
+    "name": "Perlin Noise | Version 3",
+    "description": "This first attempt is the foundation of the Perlin noise versions. This was the first artwork I was drawn to, and even before the workshop I decided to work on it. The process followed almost every step of Garrit Schaap's workshop, with some tweaks here and there."
   }
 ]

@@ -1,12 +1,12 @@
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(700, 500);
   frameRate(6);
 }
 
 const size = 10;
 const divider = 15;
 const rows = 50;
-const columns = 50;
+const columns = 70;
 
 let counter = 0;
 
