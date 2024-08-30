@@ -1,6 +1,7 @@
+// The following lines of code was adapted and tweaked from https://cagrimmett.com/2022/03/08/how-to-create-vera-molnars-structure-de-quadrilateres-in-p5-js/ Accessed: 2024-08-30
+
 function setup() {
   createCanvas(600, 600);
-  //frameRate(8);
 }
 
 function draw() {

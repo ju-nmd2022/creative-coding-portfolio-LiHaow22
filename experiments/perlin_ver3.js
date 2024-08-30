@@ -1,3 +1,4 @@
+// This code is inspired from the original code from "perlin_ver1.js", which was added by courtesy of Garrit Schaap.
 function setup() {
   createCanvas(700, 500);
   frameRate(6);

@@ -14,6 +14,18 @@
   {
     "file": "experiments/perlin_ver3.js",
     "name": "Perlin Noise | Version 3",
-    "description": "This first attempt is the foundation of the Perlin noise versions. This was the first artwork I was drawn to, and even before the workshop I decided to work on it. The process followed almost every step of Garrit Schaap's workshop, with some tweaks here and there."
+    "description": "This version of the Perlin Noise is probably my favorite. I really like the way it moves and the effect it gives when it also changes colors from deep to light purple. It reminds me of how weather looks from above in high speed."
+  },
+
+  {
+    "file": "experiments/veramolnar_ver1.js",
+    "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 1",
+    "description": "Recreating this piece and trying to tug at all different sizes took a while, but I feel quite pleased about the finished result. I really like the way it's a structured mess in a way. And I felt inspired by looking at it. "
+  },
+
+  {
+    "file": "experiments/veramolnar_ver2.js",
+    "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 2",
+    "description": "Here I decided to play around with the values and instead of quads work with ellipses. I also added noise to this version. The result reminds me of bubbles, and I thought that blue would be fitting for bubbles. Therefore, I would consider this renamed to 'Bathroom Bubbles'. "
   }
 ]
