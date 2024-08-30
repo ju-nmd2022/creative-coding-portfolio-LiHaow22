@@ -8,19 +8,19 @@
   {
     "file": "experiments/perlin_ver2.js",
     "name": "Perlin Noise | Version 2",
-    "description": "The inspiration for this piece came from looking at maps, and more specifically minecraft and pirate maps since they have a very simplistic and square look (minecraft especially)."
+    "description": "The inspiration for this piece came from looking at maps, and more specifically minecraft and pirate maps since they have a very simplistic and square look (minecraft especially). To make it more refined and create depth I have added more transparency towards the end of the artwork."
   },
 
   {
     "file": "experiments/perlin_ver3.js",
     "name": "Perlin Noise | Version 3",
-    "description": "This version of the Perlin Noise is probably my favorite. I really like the way it moves and the effect it gives when it also changes colors from deep to light purple. It reminds me of how weather looks from above in high speed."
+    "description": "This version of the Perlin Noise is probably my favorite. I really like the way it moves and the effect it gives when it also changes colors from deep to light purple. It reminds me of how weather looks from above in high speed. I saw the previous artworks and saw a blue similar version and without looking at it again I wanted to recreate it from memory, this is my best shot."
   },
 
   {
     "file": "experiments/veramolnar_ver1.js",
     "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 1",
-    "description": "Recreating this piece and trying to tug at all different sizes took a while, but I feel quite pleased about the finished result. I really like the way it's a structured mess in a way. Just by looking at it, I felt inspired. "
+    "description": "Recreating this piece and trying to tug at all different sizes took a while, but I feel quite pleased about the finished result. I really like the way it's a structured mess in a way, and I can relate to that. Just by looking at it, I felt inspired. "
   },
 
   {
@@ -32,6 +32,6 @@
   {
     "file": "experiments/veramolnar_ver3.js",
     "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 3",
-    "description": "."
+    "description": "Using the same colors as I did in the previous version this art just sort of happened. I started to add and delete values, and after a while I could visualize what I wanted the finished result to look like, and this is not far from it. I used deformation for this to work. "
   }
 ]

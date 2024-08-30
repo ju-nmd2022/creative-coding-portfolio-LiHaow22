@@ -1,7 +1,7 @@
 // This code is inspired from the original code from "perlin_ver1.js", which was added by courtesy of Garrit Schaap.
+// ChatGPT guided me through adding alpha/transparency.
 function setup() {
   createCanvas(700, 500);
-  blendMode(BLEND);
   angleMode(DEGREES);
 }
 
@@ -18,37 +18,29 @@ function draw() {
     for (let x = 0; x < columns; x++) {
       const value = noise(x / divider, y / divider) * size;
 
+      let alpha = map(y, 0, rows - 1, 255, 0);
+
       if (value < 2) {
-        fill("#24a7e3"); // Smallest
+        fill(36, 167, 227, alpha); // Smallest
       } else if (value >= 2 && value < 4) {
-        fill("#69c7e0");
+        fill(105, 199, 224, alpha);
       } else if (value >= 4 && value < 6) {
-        fill("#bfad5c"); // Medium
+        fill(191, 173, 92, alpha); // Medium
       } else if (value >= 6 && value < 8) {
-        fill("#decf8e");
+        fill(222, 207, 142, alpha);
       } else {
-        fill("#f7f6b0"); // Largest
+        fill(247, 246, 176, alpha); // Largest
       }
 
-      rect(x * size, y * size, value, value);
+      push();
+      const centerX = x * size + value / 2;
+      const centerY = y * size + value / 2;
+      translate(centerX, centerY);
+      rotate(random(-30, 30));
+      rect(-value / 2, -value / 2, value, value);
+      pop();
     }
   }
-  for (let y = 0; y < rows; y++) {
-    for (let x = 0; x < columns; x++) {
-      const value = noise(x / divider, y / divider) * size;
-      if (value < 2) {
-        fill("#24a7e380"); // Smallest
-      } else if (value >= 2 && value < 4) {
-        fill("#69c7e080");
-      } else if (value >= 4 && value < 6) {
-        fill("#bfad5c80"); // Medium
-      } else if (value >= 6 && value < 8) {
-        fill("#decf8e80");
-      } else {
-        fill("#f7f6b080"); // Largest
-      }
-      ellipse(size / 2 + x * size, size / 2 + y * size, value);
-    }
-  }
+
   noLoop();
 }
