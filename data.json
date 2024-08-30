@@ -20,12 +20,18 @@
   {
     "file": "experiments/veramolnar_ver1.js",
     "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 1",
-    "description": "Recreating this piece and trying to tug at all different sizes took a while, but I feel quite pleased about the finished result. I really like the way it's a structured mess in a way. And I felt inspired by looking at it. "
+    "description": "Recreating this piece and trying to tug at all different sizes took a while, but I feel quite pleased about the finished result. I really like the way it's a structured mess in a way. Just by looking at it, I felt inspired. "
   },
 
   {
     "file": "experiments/veramolnar_ver2.js",
     "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 2",
     "description": "Here I decided to play around with the values and instead of quads work with ellipses. I also added noise to this version. The result reminds me of bubbles, and I thought that blue would be fitting for bubbles. Therefore, I would consider this renamed to 'Bathroom Bubbles'. "
+  },
+
+  {
+    "file": "experiments/veramolnar_ver3.js",
+    "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 3",
+    "description": "."
   }
 ]
