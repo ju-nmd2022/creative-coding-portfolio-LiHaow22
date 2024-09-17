@@ -1,7 +1,7 @@
 let columns;
 let rows;
-let smooth = 0.1;
-let scale = 5;
+let smooth = 0.01;
+let scale = 10;
 let particles = [];
 let flowfield;
 
@@ -45,9 +45,8 @@ class Particle {
     this.position = createVector(random(width), random(height));
     this.velocity = createVector(0, 0);
     this.acceleration = createVector(0, 0);
-    this.maxSpeed = 2;
+    this.maxSpeed = 1;
     this.hue = random(180, 240);
-    this.alpha = random(50, 150);
   }
 
   follow(vectors) {
@@ -70,7 +69,7 @@ class Particle {
   }
 
   show() {
-    stroke(this.hue, 255, 255, this.alpha);
+    stroke(this.hue, 255, 255, 25);
     strokeWeight(2);
     point(this.position.x, this.position.y);
   }
