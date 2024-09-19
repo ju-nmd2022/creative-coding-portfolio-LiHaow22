@@ -1,15 +1,17 @@
+// This code is inspired from the original code from "perlin_ver1.js", which was added by courtesy of Garrit Schaap.
+// ChatGPT guided me through adding the flowfield and particles.
 let columns;
 let rows;
 let smooth = 0.6;
 let scale = 30;
 let particles = [];
-let flowfield;
+let flow;
 
 function setup() {
   createCanvas(700, 500);
   columns = floor(width / scale);
   rows = floor(height / scale);
-  flowfield = new Array(columns * rows);
+  flow = new Array(columns * rows);
 
   for (let i = 0; i < 5000; i++) {
     particles[i] = new Particle();
@@ -26,14 +28,14 @@ function draw() {
       let angle = noise(xoffset, yoffset) * TWO_PI * 4;
       let vector = p5.Vector.fromAngle(angle);
       vector.setMag(0.9);
-      flowfield[index] = vector;
+      flow[index] = vector;
       xoffset += smooth;
     }
     yoffset += smooth;
   }
 
   for (let i = 0; i < particles.length; i++) {
-    particles[i].follow(flowfield);
+    particles[i].follow(flow);
     particles[i].update();
     particles[i].show();
   }

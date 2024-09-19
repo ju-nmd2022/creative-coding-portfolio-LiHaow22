@@ -7,13 +7,13 @@
 
   {
     "file": "experiments/perlin_ver2.js",
-    "name": "Perlin Noise | Version 2",
+    "name": "Perlin Noise | Version 2 | The Drowning Treasure Map",
     "description": "The inspiration for this piece came from looking at maps, and more specifically minecraft and pirate maps since they have a very simplistic and square look (minecraft especially). To make it more refined and create depth I have added more transparency towards the end of the artwork."
   },
 
   {
     "file": "experiments/perlin_ver3.js",
-    "name": "Perlin Noise | Version 3",
+    "name": "Perlin Noise | Version 3 | Purple Glitter",
     "description": "This version of the Perlin Noise is probably my favorite. I really like the way it moves and the effect it gives when it also changes colors from deep to light purple. It reminds me of how weather looks from above in high speed. I saw the previous artworks and saw a blue similar version and without looking at it again I wanted to recreate it from memory, this is my best shot."
   },
 
@@ -25,13 +25,31 @@
 
   {
     "file": "experiments/veramolnar_ver2.js",
-    "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 2",
-    "description": "Here I decided to play around with the values and instead of quads work with ellipses. I also added noise to this version. The result reminds me of bubbles, and I thought that blue would be fitting for bubbles. Therefore, I would consider this renamed to 'Bathroom Bubbles'. "
+    "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 2 | Bathroom Bubbles",
+    "description": "Here I decided to play around with the values, and instead of quads work with ellipses. I also added noise to this version. The result reminds me of bubbles, and I thought that blue would be fitting for bubbles. Therefore, I would consider this renamed to 'Bathroom Bubbles'. "
   },
 
   {
     "file": "experiments/veramolnar_ver3.js",
-    "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 3",
+    "name": "Vera Molnar's 'Structure de Quadrilateres' | Version 3 | War of the Ants",
     "description": "Using the same colors as I did in the previous version this art just sort of happened. I started to add and delete values, and after a while I could visualize what I wanted the finished result to look like, and this is not far from it. I used deformation for this to work. "
+  },
+
+  {
+    "file": "experiments/perlin_ver4.js",
+    "name": "Perlin Noise | Version 4 | Marble Labyrinth",
+    "description": "The first thing I think of when seeing this piece is marble, but with a slight harshness. If there would ever be a maze made of marble, I believe this would be the result. "
+  },
+
+  {
+    "file": "experiments/perlin_ver5.js",
+    "name": "Perlin Noise | Version 5 | Peacock Feathers",
+    "description": "Thanks to the colors in this piece, this reminds me of peacock feathers. I heard from a friend that it also looks like sea waves, and I could see this too. Either way, I find it mesmerizing to watch."
+  },
+
+  {
+    "file": "experiments/perlin_ver6.js",
+    "name": "Perlin Noise | Version 5 | Sci-Fi Fireworks",
+    "description": "I wanted to make this version a bit more like firework, and for a while I had it as dots instead of straight lines, and I really liked it. But this is more sci-fi somehow, and I liked this version better. The result was actually a mishap when I was mixturing in the code and accidentally removed a line. But I looked at it and thought 'This is cool', so I kept it."
   }
 ]
