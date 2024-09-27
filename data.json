@@ -51,5 +51,11 @@
     "file": "experiments/perlin_ver6.js",
     "name": "Perlin Noise | Version 5 | Sci-Fi Fireworks",
     "description": "I wanted to make this version a bit more like firework, and for a while I had it as dots instead of straight lines, and I really liked it. But this is more sci-fi somehow, and I liked this version better. The result was actually a mishap when I was mixturing in the code and accidentally removed a line. But I looked at it and thought 'This is cool', so I kept it."
+  },
+
+  {
+    "file": "experiments/sketch.js",
+    "name": "Sound Testing",
+    "description": "Trying to get sound to work."
   }
 ]
