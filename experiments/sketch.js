@@ -2,6 +2,7 @@
 // The Coding Creative on YouTube guided me through the start of Tone.js, video reference (+ continuation of videos in series): https://www.youtube.com/watch?v=7ZhbKclhDf4
 // Joel Schuman's code from CodePen helped me understand different values in different settings, link reference: https://codepen.io/j0315C-human/pen/eaQqzY?editors=1010
 // ChatGPT guided me through making the chords listen to the particle fireworks
+// Multiple sources from tone.js (https://tonejs.github.io)
 
 let synth = new Tone.PolySynth().toDestination();
 let vibrato = new Tone.Vibrato(5, 0);
