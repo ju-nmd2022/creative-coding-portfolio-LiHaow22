@@ -55,7 +55,7 @@
 
   {
     "file": "experiments/sketch.js",
-    "name": "Sound Testing",
-    "description": "Trying to get sound to work."
+    "name": "Tone.js | Synth Fireworks",
+    "description": "I wanted to use my firework artwork as a foundation for this experiment as I thought it could work well with sound. When you click, the music starts to play. Each time a firework explodes, a chord is played. The sound changes based on where the firework explodes. I thought this was very difficult, and it took SO much time to just understand how tone works, and even longer to make it work with an artwork."
   }
 ]
